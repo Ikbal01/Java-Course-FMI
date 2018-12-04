@@ -87,9 +87,4 @@ public class MoviesExplorer {
                 .findAny()
                 .get();
     }
-
-    public void printFirstMovie() {
-        movies.stream()
-                .forEach(System.out::println);
-    }
 }
